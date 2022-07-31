@@ -1,0 +1,19 @@
+Version1: Let the site be bare min n good with most necessary info
+
+1) Put animations
+Too much also makes it boring. Only at imp places to get attentions maybe
+For now:
+Slide in fade left right
+tada n pulse for icons
+https://mdbootstrap.com/docs/standard/content-styles/animations/
+on scroll
+
+That's enough for now (version 1 of site)
+
+2) Mini changes
+- Better logos
+- Different hamburget menu?
+
+3) Fill in the reamaining info (good enough will be enough for now!)
+
+4) Take people's opinion n improve!

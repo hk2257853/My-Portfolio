@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <!--for icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Harsh | Profolio</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bluebg navbar-dark py-2 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand text-primary"> HARSH </a>
+        <!--TODO: Make the 3 strips blue & not the whole button-->
+        <button
+          class="navbar-toggler bg-primary"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#about" class="nav-link text-primary">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link text-primary">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link text-primary">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Quick Intro-->
+    <section class="bluebg p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md slide-in from-left">
+            <div class="card text-dark">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person-square"></i>
+                </div>
+                <h3 class="card-title mb-3">Hello!</h3>
+                <p class="card-text">
+                  Harsh here!
+                  <br />
+                  Goa engineering College 2nd year
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md slide-in from-right">
+            <div class="card text-dark">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3 class="card-title mb-3">In Person</h3>
+                <p class="card-text">
+                  Currently looking for internship opportunities
+                </p>
+                <a
+                  href="https://drive.google.com/file/d/19hk7j-5EjiTlxYCXNz8pRKqNv7f1LyaB/view?usp=sharing"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Resume</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--About ME-->
+    <section id="about" class="p-0">
+      <div class="container fade-in">
+        <h2>About Me!</h2>
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="1.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md p-5 fade-in">
+            <p class="lead">
+              Hey, I am Harsh Kumar, a passionate software developer, with wide
+              variety of skill in design, web, app and game development.I love
+              building crazy stuffs and you can always find me learning new
+              things. I believe in minimalism and team work.
+            </p>
+            <h3>Education</h3>
+            <p class="lead">
+              BTech Computer Science, 2nd year, Goa Engineering College. CGPA
+              9.2
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Coding Skills and achievements-->
+    <div class="container slide-in from-left">
+      <h1>Coding Skills and Achievements</h1>
+      <div class="col-md p-5 fade-in">
+        <p class="lead">
+          Put in info about codechef, leetcode constest, coding competitions won
+          (if any ever lol).
+          <br />
+          <br />
+          Mention solved prob on various data structures like array, trie, hash
+          map and algos like ... etc (don't mention the number... People put 500
+          n all. Just something that sounds good like)
+          <br />
+          <br />
+          Put In icons to make it more cooler like...
+        </p>
+      </div>
+    </div>
+
+    <!--Projects-->
+    <section id="projects" class="p-5 bluebg">
+      <div class="container">
+        <div class="h1 mb-4 text-center">Projects</div>
+
+        <!--2 col per row-->
+        <div class="row text-center g-4 mb-4">
+          <div class="col-md slide-in from-left">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <h3 class="card-title mb-3">GCET Prep App</h3>
+                <div class="flip-container">
+                  <div class="flipper">
+                    <div class="front">
+                      <img src="1.png" class="img-fluid" alt="#" />
+                    </div>
+                    <div class="back center-text">
+                      <p class="card-text">back text here!</p>
+                    </div>
+                  </div>
+                </div>
+                <p class="card-text">
+                  (Deployed on playstore)
+                  <br />
+                  An app for Gcet Preparation
+                </p>
+                <div class="row g-3">
+                  <div class="col-sm">
+                    <a
+                      href="https://drive.google.com/file/d/19hk7j-5EjiTlxYCXNz8pRKqNv7f1LyaB/view?usp=sharing"
+                      target="_blank"
+                      class="btn btn-danger"
+                      >Playstore</a
+                    >
+                  </div>
+                  <div class="col-sm">
+                    <a
+                      href="https://github.com/vasu-1/CalcHub/tree/main/Calculators/BaseX_Calculator#readme"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md slide-in from-right">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <h3 class="card-title mb-3">Memories</h3>
+                <div class="h1 mb-3">
+                  <img src="1.png" class="img-fluid" alt="" />
+                </div>
+                <p class="card-text">
+                  A CRUD webapp built using the MERN stack
+                </p>
+                <div class="row g-3">
+                  <div class="col-sm">
+                    <a
+                      href="https://drive.google.com/file/d/19hk7j-5EjiTlxYCXNz8pRKqNv7f1LyaB/view?usp=sharing"
+                      target="_blank"
+                      class="btn btn-danger"
+                      >Playstore</a
+                    >
+                  </div>
+                  <div class="col-sm">
+                    <a
+                      href="https://github.com/vasu-1/CalcHub/tree/main/Calculators/BaseX_Calculator#readme"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center g-4">
+          <div class="col-md slide-in from-left">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <h3 class="card-title mb-3">Memories</h3>
+                <div class="h1 mb-3">
+                  <img src="1.png" class="img-fluid" alt="" />
+                </div>
+                <p class="card-text">
+                  A CRUD webapp built using the MERN stack
+                </p>
+                <div class="row g-3">
+                  <div class="col-sm">
+                    <a
+                      href="https://drive.google.com/file/d/19hk7j-5EjiTlxYCXNz8pRKqNv7f1LyaB/view?usp=sharing"
+                      target="_blank"
+                      class="btn btn-danger"
+                      >Playstore</a
+                    >
+                  </div>
+                  <div class="col-sm">
+                    <a
+                      href="https://github.com/vasu-1/CalcHub/tree/main/Calculators/BaseX_Calculator#readme"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md slide-in from-right">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <h3 class="card-title mb-3">Adventure Time</h3>
+                <div class="h1 mb-3">
+                  <img src="1.png" class="img-fluid" alt="" />
+                </div>
+                <p class="card-text">A mini RPG with most of the...</p>
+                <div class="row g-3">
+                  <div class="col-sm">
+                    <a
+                      href="https://drive.google.com/file/d/19hk7j-5EjiTlxYCXNz8pRKqNv7f1LyaB/view?usp=sharing"
+                      target="_blank"
+                      class="btn btn-danger"
+                      >Playstore</a
+                    >
+                  </div>
+                  <div class="col-sm">
+                    <a
+                      href="https://github.com/vasu-1/CalcHub/tree/main/Calculators/BaseX_Calculator#readme"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Skills-->
+    <!--No prebuilt icons.. so add custom-->
+    <div class="container text-center">
+      <h1 class="text-start">Skills</h1>
+      <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+      <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+      <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+      <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+    </div>
+
+    <!--Contact-->
+    <div id="contact" class="container text-center mb-2">
+      <!--I can put buttons like this or those icons https://mdbootstrap.com/docs/standard/extended/social-media/#!-->
+      <!--Should I put in css? Hover effect not working-->
+      <h1 class="text-start">Let's Talk!</h1>
+      <a class="btn btn-primary" style="background-color: #3b5998" href="#!"
+        ><i class="bi bi-facebook"></i
+      ></a>
+      <a class="btn btn-primary" style="background-color: #55acee" href="#!"
+        ><i class="bi bi-twitter"></i
+      ></a>
+      <a class="btn btn-primary" style="background-color: #ac2bac" href="#!"
+        ><i class="bi bi-instagram"></i
+      ></a>
+      <a class="btn btn-primary" style="background-color: #0082ca" href="#!"
+        ><i class="bi bi-linkedin"></i
+      ></a>
+    </div>
+
+    <!-- Back to top button -->
+    <button
+      type="button"
+      class="btn btn-primary helo btn-floating btn-lg"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="index.js"></script>
+    <script src="animations.js"></script>
+  </body>
+</html>
