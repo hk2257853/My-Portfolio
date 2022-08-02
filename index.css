@@ -2,7 +2,7 @@ body::before {
   /*prevent navbar from hiding the 2 cards*/
   display: block;
   content: "";
-  height: 50px;
+  height: 65px;
 }
 
 #btn-back-to-top {
