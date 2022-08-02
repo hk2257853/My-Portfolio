@@ -3,10 +3,15 @@ Version1: Let the site be bare min n good with most necessary info
 1) Main things:
 - close navbar on click
 - Logos (still n contact)
+- nav bar overlapping the intro cards
 
 2) Mini changes
 - Different hamburget menu?
+- Proper images (it can enhance the site significatly)
 
 3) Fill in the reamaining info (good enough will be enough for now!)
 
 4) Take people's opinion n improve!
+
+* add mentored students in resume (telegram group)
+* was 1 hr tryping to put good social media icons. Just skip for now.
