@@ -1,13 +1,13 @@
 Version1: Let the site be bare min n good with most necessary info
 
 1) Main things:
-- close navbar on click
-- Logos (still n contact)
-- nav bar overlapping the intro cards
+- skills n coding section
 
 2) Mini changes
+- make my image smaller (currently used margin)
 - Different hamburget menu?
 - Proper images (it can enhance the site significatly)
+- better logos
 
 3) Fill in the reamaining info (good enough will be enough for now!)
 

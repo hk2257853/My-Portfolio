@@ -20,3 +20,12 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+const navLinks = document.querySelectorAll(".nav-item");
+const menuToggle = document.getElementById("navmenu");
+const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false });
+navLinks.forEach((l) => {
+  l.addEventListener("click", () => {
+    bsCollapse.toggle();
+  });
+});
