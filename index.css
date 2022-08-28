@@ -26,6 +26,7 @@ body::before {
 .from-right {
   grid-column: 3 / 4;
   transform: translateX(50%);
+  /*the above line is the reason for button to fall out*/
 }
 
 .from-left,
