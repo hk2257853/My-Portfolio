@@ -29,3 +29,27 @@ navLinks.forEach((l) => {
     bsCollapse.toggle();
   });
 });
+
+const search = document.getElementById("search");
+const projects = document.querySelectorAll(".col-md");
+
+search.addEventListener("keyup", (e) => {
+  const searchString = e.target.value.toLowerCase();
+
+  const filteredProjects = Array.from(projects).filter((project) => {
+    const title = project.querySelector(".card-title");
+    const description = project.querySelector(".card-text");
+    return (
+      (title && title.textContent.toLowerCase().includes(searchString)) ||
+      (description && description.textContent.toLowerCase().includes(searchString))
+    );
+  });
+
+  Array.from(projects).forEach((project) => {
+    if (filteredProjects.includes(project)) {
+      project.classList.remove("d-none");
+    } else {
+      project.classList.add("d-none");
+    }
+  });
+});

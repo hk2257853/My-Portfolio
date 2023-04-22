@@ -4,12 +4,18 @@ Version1: Let the site be bare min n good with most necessary info
 - Button falling out (issue identified but dk the soln yet): can put animations up down mode...
 - save resources links (flip cards, animations)
 - footer (reserver rights or made by me)
+- seo, image optimization, etc
+- volunteer section, work exp, etc
+- search
+- for cards: can I put the data at 1 place and populate it in all cards? is that a good idea? 
 
 2) Mini changes
 - make my image smaller (currently used margin)
 - Different hamburget menu?
 - Proper images (it can enhance the site significatly)
 - better logos
-- proper padding for skills and coding section
+- margin and padding issues
 
 3) Take people's opinion n improve!
+
+This is a simple portfolio made with the skills I leart back then. I'll make a much better and creative site soon.
