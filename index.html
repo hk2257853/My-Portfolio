@@ -81,7 +81,7 @@
                 <div class="h1 mb-3">
                   <i class="bi bi-people"></i>
                 </div>
-                <h3 class="card-title mb-3">In Person</h3>
+                <h3 class="card-title mb-3">Objective</h3>
                 <p class="card-text">
                   Currently looking for internship opportunities
                 </p>
@@ -141,134 +141,10 @@
           </div>
         </div>
 
-        <!--2 col per row-->
-        <div class="row text-center g-4 mb-4">
-          <div class="col-md slide-in from-left">
-            <div class="card bg-dark text-light">
-              <div class="card-body text-center">
-                <h3 class="card-title mb-3">GCET Prep App</h3>
-                <div class="flip-container">
-                  <div class="flipper">
-                    <div class="front">
-                      <img src="resources/gcet.png" class="img-fluid" alt="#" />
-                    </div>
-                    <div class="back center-text">
-                      <p class="card-text">800+ Downloads, rating: 4.9+</p>
-                    </div>
-                  </div>
-                </div>
-                <p class="card-text">
-                  (Deployed on playstore)
-                  <br />
-                  An app for Gcet Preparation
-                </p>
-                <a
-                  href="https://play.google.com/store/apps/details?id=com.hk.gcetprepapp&hl=en&gl=US"
-                  target="_blank"
-                  class="btn btn-danger"
-                  >Playstore</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-md slide-in from-right">
-            <div class="card bg-secondary text-light">
-              <div class="card-body text-center">
-                <h3 class="card-title mb-3">Memories</h3>
-                <div class="flip-container">
-                  <div class="flipper">
-                    <div class="front">
-                      <img
-                        src="resources/MernProject.png"
-                        class="img-fluid"
-                        alt="#"
-                      />
-                    </div>
-                    <div class="back center-text">
-                      <p class="card-text">
-                        Features: Post, Update, Delete, Like, Authentication
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <p class="card-text">
-                  A CRUD webapp built using the MERN stack
-                </p>
-                <a
-                  href="https://github.com/hk2257853/WebDev-Learning-Projects"
-                  target="_blank"
-                  class="btn btn-danger"
-                  >Github</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row text-center g-4 mb-4">
-          <div class="col-md slide-in from-left">
-            <div class="card bg-dark text-light">
-              <div class="card-body text-center">
-                <h3 class="card-title mb-3">Open-source Contribution</h3>
-                <div class="flip-container">
-                  <div class="flipper">
-                    <div class="front">
-                      <img
-                        src="resources/calchub_OSC.png"
-                        class="img-fluid"
-                        alt="#"
-                      />
-                    </div>
-                    <div class="back center-text">
-                      <p class="card-text">
-                        This was my first open source Contribution!
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <p class="card-text">CalcHub - html, CSS, JS, Bootstrap</p>
-                <a
-                  href="https://github.com/vasu-1/CalcHub/pull/83#issue-1159699341"
-                  target="_blank"
-                  class="btn btn-danger"
-                  >Issue link</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-md slide-in from-right">
-            <div class="card bg-secondary text-light">
-              <div class="card-body text-center">
-                <h3 class="card-title mb-3">Adventure Time</h3>
-                <div class="flip-container">
-                  <div class="flipper">
-                    <div class="front">
-                      <img
-                        src="resources/coming_soon.jpg"
-                        class="img-fluid"
-                        alt="#"
-                      />
-                    </div>
-                    <div class="back center-text">
-                      <p class="card-text">
-                        Under development! It's one of the biggest things I ever
-                        worked on!
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <p class="card-text">A RPG game made using UE4</p>
-                <a
-                  href="https://github.com/vasu-1/CalcHub/tree/main/Calculators/BaseX_Calculator#readme"
-                  target="_blank"
-                  class="btn btn-danger"
-                  >Github</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        <div class="dynamic-cards">
+          <!-- projects will be added dynamically here -->
+          <!--2 col per row-->
+        </div>    
     </section>
 
     <!--Coding Skills and achievements-->
@@ -377,7 +253,8 @@
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
-    <script defer src="index.js"></script>
-    <script src="animations.js"></script>
+    <script defer src="javascript/index.js"></script>
+    <script src="javascript/cardData.js"></script>
+    <script src="javascript/animations.js"></script>
   </body>
 </html>

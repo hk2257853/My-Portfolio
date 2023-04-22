@@ -1,3 +1,5 @@
+window.addEventListener('load', () => {
+
 const faders = document.querySelectorAll(".fade-in");
 const sliders = document.querySelectorAll(".slide-in");
 
@@ -27,4 +29,6 @@ faders.forEach((fader) => {
 
 sliders.forEach((slider) => {
   appearOnScroll.observe(slider);
+});
+
 });

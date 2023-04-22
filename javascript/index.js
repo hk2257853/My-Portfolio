@@ -30,6 +30,8 @@ navLinks.forEach((l) => {
   });
 });
 
+window.addEventListener('load', () => {
+
 const search = document.getElementById("search");
 const projects = document.querySelectorAll(".col-md");
 
@@ -52,4 +54,5 @@ search.addEventListener("keyup", (e) => {
       project.classList.add("d-none");
     }
   });
+});
 });
