@@ -1,21 +1,18 @@
-Version1: Let the site be bare min n good with most necessary info
-
 1) Main things:
-- Button falling out (issue identified but dk the soln yet): can put animations up down mode...
-- save resources links (flip cards, animations)
-- footer (reserver rights or made by me)
+- project pg development
+- volunteer section, work exp, etc (do alternate section white blue with logic)
+- tag system
 - seo, image optimization, etc
-- volunteer section, work exp, etc
-- search
-- for cards: can I put the data at 1 place and populate it in all cards? is that a good idea? 
+- make sure routing stuff works here
 
 2) Mini changes
+- footer (reserver rights or made by me)
+- Button falling out (issue identified but dk the soln yet): can put animations up down mode...
 - make my image smaller (currently used margin)
 - Different hamburget menu?
+- search (put for project pg only)
 - Proper images (it can enhance the site significatly)
 - better logos
 - margin and padding issues
 
 3) Take people's opinion n improve!
-
-This is a simple portfolio made with the skills I leart back then. I'll make a much better and creative site soon.

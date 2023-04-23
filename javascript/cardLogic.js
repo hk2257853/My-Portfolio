@@ -20,10 +20,12 @@ window.addEventListener('DOMContentLoaded', () => {
           .replace(/\${demoLink}/g, project.demoLink)
           .replace(/\${demoText}/g, project.demoText)
           .replace(/\${cardColor}/g, project.cardColor)
-          .replace(/\${slideInDir}/g, project.slideInDir);
+          .replace(/\${slideInDir}/g, project.slideInDir)
+          .replace(/\${tags}/g, project.tags);
         
           // 2 cards on main pg, 3 on project
-          if (window.location.pathname === '/index.html') {
+          if (window.location.pathname === '/index.html') 
+          {
             if (index % 2 === 0) {
               // Create a new row div for every second card
               const row = document.createElement('div');
@@ -36,7 +38,9 @@ window.addEventListener('DOMContentLoaded', () => {
           card.classList.add('col-md', 'slide-in', project.slideInDir);
           card.innerHTML = html;
           container.lastChild.appendChild(card);
-          } else if (window.location.pathname === '/project.html') {
+          } 
+          else if (window.location.pathname === '/project.html') 
+          {
           if (index % 3 === 0) {
             // Create a new row div for every third card
             const row = document.createElement('div');

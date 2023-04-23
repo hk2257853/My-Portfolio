@@ -1,6 +1,6 @@
 export const template = `
 <div class="col-md slide-in \${slideInDir}">
-  <div class="card \${cardColor} text-light card-color">
+  <div class="card \${cardColor} text-light card-color" data-tags="\${tags}">
     <div class="card-body text-center">
       <h3 class="card-title mb-3 project-title">\${projectTitle}</h3>
       <div class="flip-container">
@@ -29,7 +29,8 @@ export const indexCardData = [
       demoLink: 'https://play.google.com/store/apps/details?id=com.hk.gcetprepapp&hl=en&gl=US',
       demoText: 'Playstore',
       cardColor: 'bg-dark',
-      slideInDir: 'from-left'
+      slideInDir: 'from-left',
+      tags: 'mern,deployed',
     },
     {
       projectTitle: 'Memories',
@@ -39,7 +40,8 @@ export const indexCardData = [
       demoLink: 'https://github.com/hk2257853/WebDev-Learning-Projects',
       demoText: 'Github',
       cardColor: 'bg-secondary',
-        slideInDir: 'from-right'
+        slideInDir: 'from-right',
+        tags: 'mern,deployed',
     },
     {
       projectTitle: 'Open-source Contribution',
@@ -49,7 +51,8 @@ export const indexCardData = [
       demoLink: 'https://github.com/vasu-1/CalcHub/pull/83#issue-1159699341',
       demoText: 'Issue link',
       cardColor: 'bg-dark',
-        slideInDir: 'from-left'
+        slideInDir: 'from-left',
+        tags: 'mern,deployed',
     },
     {
       projectTitle: 'Adventure Time',
@@ -59,7 +62,8 @@ export const indexCardData = [
       demoLink: 'https://github.com/vasu-1/CalcHub/tree/main/Calculators/BaseX_Calculator#readme',
       demoText: 'Github',
       cardColor: 'bg-secondary',
-      slideInDir: 'from-right'
+      slideInDir: 'from-right',
+      tags: 'mern,deployed',
     },
 ];
 
@@ -72,7 +76,8 @@ export const projectpgCardData = [
     demoLink: 'https://play.google.com/store/apps/details?id=com.hk.gcetprepapp&hl=en&gl=US',
     demoText: 'Playstore',
     cardColor: 'bg-dark',
-    slideInDir: 'from-left'
+    slideInDir: 'from-left',
+    tags: 'mern,deployed',
   },
   {
     projectTitle: 'Memories',
@@ -82,7 +87,8 @@ export const projectpgCardData = [
     demoLink: 'https://github.com/hk2257853/WebDev-Learning-Projects',
     demoText: 'Github',
     cardColor: 'bg-secondary',
-      slideInDir: 'from-left'
+      slideInDir: 'fade-in',
+      tags: 'mern1,deployed1',
   },
   {
     projectTitle: 'Open-source Contribution',
@@ -92,7 +98,8 @@ export const projectpgCardData = [
     demoLink: 'https://github.com/vasu-1/CalcHub/pull/83#issue-1159699341',
     demoText: 'Issue link',
     cardColor: 'bg-dark',
-      slideInDir: 'from-left'
+      slideInDir: 'from-right',
+      tags: 'mern1,deployed1',
   },
   {
     projectTitle: 'Adventure Time',
@@ -102,6 +109,7 @@ export const projectpgCardData = [
     demoLink: 'https://github.com/vasu-1/CalcHub/tree/main/Calculators/BaseX_Calculator#readme',
     demoText: 'Github',
     cardColor: 'bg-secondary',
-    slideInDir: 'from-right'
+    slideInDir: 'from-left',
+    tags: 'mern,deployed1',
   },
 ];
