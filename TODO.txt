@@ -1,16 +1,12 @@
 1) Main things:
-- project pg development
 - volunteer section, work exp, etc (do alternate section white blue with logic)
-- tag system
 - seo, image optimization, etc
-- make sure routing stuff works here
 
 2) Mini changes
+- improve project card content
 - footer (reserver rights or made by me)
 - Button falling out (issue identified but dk the soln yet): can put animations up down mode...
-- make my image smaller (currently used margin)
 - Different hamburget menu?
-- search (put for project pg only)
 - Proper images (it can enhance the site significatly)
 - better logos
 - margin and padding issues

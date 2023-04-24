@@ -1,6 +1,4 @@
-<!--All project and achievement page-->
-<!--Diplay all of my porjects in different sections, search option-->
-<!--One section for achievements-->
+<!--TODO: Add experience and achievements-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -23,60 +21,50 @@
     <title>Harsh | Projects</title>
   </head>
   <body>
-    get the filter working, write something good here, back to main pg button
+    Coming soon: good description here, back to main pg button, improving card titles and description. Add sections: experience, achievements, volunteer, etc? or on main pg?
+    <p><span id="project-count"></span>+ Projects and many more to come!</p>
     <br>
-    <!--put proper margin-->
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <button class="btn btn-primary tag-button" data-tag="mern">MERN</button>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <button class="btn btn-primary tag-button" data-tag="hackathon">Hackathon</button>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <button class="btn btn-primary tag-button" data-tag="deployed">Deployed</button>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <button class="btn btn-primary tag-button" data-tag="android">Android</button>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <button class="btn btn-primary tag-button" data-tag="mern">MERN</button>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <button class="btn btn-primary tag-button" data-tag="hackathon">Hackathon</button>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <button class="btn btn-primary tag-button" data-tag="deployed">Deployed</button>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <button class="btn btn-primary tag-button" data-tag="android">Android</button>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <button class="btn btn-primary tag-button" data-tag="mern">MERN</button>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <button class="btn btn-primary tag-button" data-tag="hackathon">Hackathon</button>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <button class="btn btn-primary tag-button" data-tag="deployed">Deployed</button>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <button class="btn btn-primary tag-button" data-tag="android">Android</button>
-        </div>
-
-
-        <!-- add more buttons as needed -->
-      </div>
-    </div>
 
     <!--Search-->
-    <div class="container mb-4">
+    <div class="container m-4">
       <div class="input-group">
         <span class="input-group-text" id="search-addon"><i class="bi bi-search"></i></span>
         <input type="text" id="search" class="form-control" placeholder="Search projects">
       </div>
     </div>
+
+    <!--Tag buttons-->
+    <div class="container m-3">
+      <div class="row">
+        <div class="col-3 m-1">
+          <button class="btn btn-primary tag-button" data-tag="mern">MERN</button>
+        </div>
+        <div class="col-3 m-1">
+          <button class="btn btn-primary tag-button" data-tag="hackathon">Hackathon</button>
+        </div>
+        <div class="col-3 m-1">
+          <button class="btn btn-primary tag-button" data-tag="deployed">Deployed</button>
+        </div>
+        <div class="col-3 m-1">
+          <button class="btn btn-primary tag-button" data-tag="android">Android</button>
+        </div>
+        <div class="col-3 m-1">
+          <button class="btn btn-primary tag-button" data-tag="java">Java</button>
+        </div>
+        <div class="col-3 m-1">
+          <button class="btn btn-primary tag-button" data-tag="kotlin">Kotlin</button>
+        </div>
+        <div class="col-3 m-1">
+          <button class="btn btn-primary tag-button" data-tag="firebase">Firebase</button>
+        </div>
+        <div class="col-3 m-1">
+          <button class="btn btn-primary tag-button" data-tag="ml">ML</button>
+        </div>
+        <div class="col-3 m-1">
+          <button class="btn btn-primary tag-button" data-tag="game">Game</button>
+        </div>
+      </div>
+    </div>          
 
     <div class="dynamic-cards">
       <!-- projects will be added dynamically here -->

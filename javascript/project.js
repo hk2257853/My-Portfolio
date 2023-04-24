@@ -25,45 +25,6 @@ window.addEventListener('load', () => {
     });
   });
 });
-    
-// // filter
-// function filterCards(tag) {
-//   // Get all cards
-//   const cards = document.querySelectorAll('.card');
-  
-//   // Loop through all cards
-//   cards.forEach(card => {
-//     // Get the tags of the current card
-//     const tags = card.dataset.tags.split(',');
-
-//     // Check if the card has the selected tag
-//     if (tags.includes(tag)) {
-//       // If the card has the selected tag, show it
-//       card.style.display = '';
-//     } else {
-//       // If the card doesn't have the selected tag, hide it
-//       card.style.display = 'none';
-//     }
-//   });
-// }
-    
-// // filter buttons
-// window.addEventListener('load', () => {
-//   const tagButtons = document.querySelectorAll('.tag-button');
-
-//   tagButtons.forEach(button => {
-//     button.addEventListener('click', () => {
-//       if (button.classList.contains('selected')) {
-//         button.classList.remove('selected');
-        
-//       } else {
-//         // tagButtons.forEach(button => button.classList.remove('selected')); // if want only one button to be selected
-//         button.classList.add('selected');
-//       }
-//     });
-//   });
-// });
-
 
 let selectedTags = [];
 
@@ -103,4 +64,12 @@ window.addEventListener('load', () => {
       filterCards();
     });
   });
+});
+
+// project count
+window.addEventListener('load', () => {
+  const cards = document.querySelectorAll('.card');
+  const projectCount = document.getElementById('project-count');
+  
+  projectCount.textContent = cards.length.toString();
 });
