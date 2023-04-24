@@ -33,6 +33,8 @@ window.addEventListener('DOMContentLoaded', () => {
         else slideInDir = 'from-right';
       }
 
+      const tagsHtml = createTagsHtml(project.tags);
+
       const html = template
           .replace(/\${projectTitle}/g, project.projectTitle)
           .replace(/\${imgSource}/g, project.imgSource)
@@ -42,7 +44,8 @@ window.addEventListener('DOMContentLoaded', () => {
           .replace(/\${cardColor}/g, cardColor)
           .replace(/\${slideInDir}/g, slideInDir)
           .replace(/\${tags}/g, project.tags)
-          .replace(/\${codeLink}/g, project.codeLink);
+          .replace(/\${codeLink}/g, project.codeLink)
+          .replace(/\${tagsHtml}/g, tagsHtml);
                            
           if (window.location.pathname === '/project.html') 
           {
@@ -78,3 +81,12 @@ window.addEventListener('DOMContentLoaded', () => {
       
   });
 });
+
+function createTagsHtml(tags) {
+  const tagsArray = tags.split(',');
+  return tagsArray.map((tag) => {
+    return `
+      <div class="rounded-pill bg-danger d-inline-block px-2 py-1 mb-3">${tag}</div>
+    `;
+  }).join('');
+}

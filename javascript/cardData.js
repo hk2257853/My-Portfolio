@@ -14,6 +14,9 @@ export const template = `
         </div>
       </div>
       <p class="card-text description-text">\${descriptionText}</p>
+      <div class="tags-wrapper mt-3">
+        \${tagsHtml}
+      </div>
       <div class="row">
       <div class="d-flex justify-content-between">
         <a href="\${codeLink}" target="_blank" class="btn btn-primary"><i class="bi bi-code-square"></i> Code</a>
@@ -24,47 +27,6 @@ export const template = `
   </div>
 </div>
 `;
-
-/*
-export const indexCardData = [
-    {
-      projectTitle: 'GCET Prep App',
-      imgSource: 'resources/gcet.png',
-      flipText: '800+ Downloads, rating: 4.9+',
-      descriptionText: '(Deployed on playstore) An app for Gcet Preparation',
-      demoLink: 'https://play.google.com/store/apps/details?id=com.hk.gcetprepapp&hl=en&gl=US',
-      codeLink: 'https://github.com/hk2257853/GCETPrepApp',                  
-      tags: 'android,deployed,java,firebase',
-    },
-    {
-      projectTitle: 'FreshCart',
-      imgSource: 'resources/freshkart.png',
-      flipText: 'Built a full-stack MERN application with CRUD functionality, including a machine learning-based recommendation system, recipe management, daily deal feature, user authentication, and admin/user roles. Teamates: Rushikesh',
-      descriptionText: 'Mern stack project for DBMS',
-      demoLink: 'https://github.com/hk2257853/Grocery',
-      codeLink: 'https://github.com/hk2257853/Grocery',            
-      tags: 'mern,ml',
-    },   
-    {
-      projectTitle: 'ARM Website',
-      imgSource: 'resources/coming_soon.png',
-      flipText: 'Added google auth (firebase), contact us, poll and hosted on vercel',
-      descriptionText: 'Offical website of ARM club (robotics) ',
-      demoLink: 'https://arm-website.vercel.app/',
-      codeLink: 'https://github.com/hk2257853/arm-website',                  
-      tags: 'react,deployed,mern',
-    },
-    {
-      projectTitle: 'Technix23 Website',
-      imgSource: 'resources/coming_soon.png',
-      flipText: 'Added Sponsors section, Registeration page and did some minor fixes',
-      descriptionText: 'Offical website of Technix 2023',
-      demoLink: 'https://technix23.vercel.app/',
-      codeLink: 'https://github.com/lolla-sai/Technix23-Website',                  
-      tags: 'nextjs,deployed,mern',
-    },  
-];
-*/
 
 export const projectpgCardData = [
   {
