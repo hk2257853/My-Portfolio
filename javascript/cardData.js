@@ -25,6 +25,7 @@ export const template = `
 </div>
 `;
 
+/*
 export const indexCardData = [
     {
       projectTitle: 'GCET Prep App',
@@ -63,6 +64,7 @@ export const indexCardData = [
       tags: 'nextjs,deployed,mern',
     },  
 ];
+*/
 
 export const projectpgCardData = [
   {

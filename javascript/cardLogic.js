@@ -1,4 +1,4 @@
-import { template, indexCardData, projectpgCardData } from "./cardData.js";
+import { template, projectpgCardData } from "./cardData.js";
 
 // on page load
 window.addEventListener('DOMContentLoaded', () => {
@@ -8,7 +8,8 @@ window.addEventListener('DOMContentLoaded', () => {
     if (window.location.pathname === '/project.html') {
       projectCardData = projectpgCardData;
     } else {
-      projectCardData = indexCardData;
+      // from 0 to 3 index
+      projectCardData = projectpgCardData.slice(0, 4);
     }
 
     projectCardData.forEach((project, index) => {
