@@ -31,7 +31,7 @@ export const template = `
 export const projectpgCardData = [
   {
     projectTitle: 'GCET Prep App',
-    imgSource: 'resources/gcet.png',
+    imgSource: 'resources/gcet.webp',
     flipText: '1000+ Downloads, rating: 4.9+',
     descriptionText: '(Deployed on playstore) An app for Gcet Preparation',
     demoLink: 'https://play.google.com/store/apps/details?id=com.hk.gcetprepapp&hl=en&gl=US',
@@ -40,7 +40,7 @@ export const projectpgCardData = [
   },  
   {
     projectTitle: 'Technix23 Website',
-    imgSource: 'resources/technix.png',
+    imgSource: 'resources/technix.webp',
     flipText: 'Added Sponsors section, Registeration page, luma integration and did some minor fixes',
     descriptionText: 'Offical website of Technix 2023',
     demoLink: 'https://technix23.vercel.app/',
@@ -49,7 +49,7 @@ export const projectpgCardData = [
   },
   {
     projectTitle: 'FreshCart',
-    imgSource: 'resources/freshkart.png',
+    imgSource: 'resources/freshkart.webp',
     flipText: 'Built a full-stack MERN application with CRUD functionality, including a machine learning-based recommendation system, recipe management, daily deal feature, user authentication, and admin/user roles. Teamates: Rushikesh',
     descriptionText: 'Mern stack project for DBMS',
     demoLink: 'https://docs.google.com/document/d/1TpbD9dnyezhD7vGMMyMBXxMASZFBve_j/edit',
@@ -58,7 +58,7 @@ export const projectpgCardData = [
   },
   {
     projectTitle: 'ARM Website',
-    imgSource: 'resources/arm.png',
+    imgSource: 'resources/arm.webp',
     flipText: 'Added google auth (firebase), contact us, poll and hosted on vercel',
     descriptionText: 'Offical website of ARM club (robotics) ',
     demoLink: 'https://arm-website.vercel.app/',
@@ -67,7 +67,7 @@ export const projectpgCardData = [
   },  
   {
     projectTitle: 'Memories',
-    imgSource: 'resources/MernProject.png',
+    imgSource: 'resources/MernProject.webp',
     flipText: 'Features: Post, Update, Delete, Like, Authentication',
     descriptionText: 'A CRUD webapp built using the MERN + Redux stack',
     demoLink: 'https://github.com/hk2257853/WebDev-Learning-Projects',
@@ -76,7 +76,7 @@ export const projectpgCardData = [
   },   
   {
     projectTitle: 'Cosmic Crusaders',
-    imgSource: 'resources/iitgoa.png',
+    imgSource: 'resources/iitgoa.webp',
     flipText: 'Travel across the multiverse and help our here to find the lost pets. Authentication, Character Creation, Interactive Elements, Database Integration ...and more! Teamates: Greeshma and Urvi',
     descriptionText: 'IIT Goa 48hr hackathon: 2nd place',
     demoLink: 'https://drive.google.com/file/d/1I2pZDt8SWF-Ea8GEGQYreu93DGe9ENPK/view?usp=share_link',
@@ -85,7 +85,7 @@ export const projectpgCardData = [
   },
   {
     projectTitle: 'ChaatBites',
-    imgSource: 'resources/parking.png',
+    imgSource: 'resources/parking.webp',
     flipText: 'SEO-optimized, menu and cart ordering system, admin page for updating parking lot information and adding new items to the menu, authentication and more! Teamates: Rushikesh and Lloyd',
     descriptionText: 'A desi chat ordering website, 7hr chowgule webathon: 2nd place',
     demoLink: 'coming soon',
@@ -94,7 +94,7 @@ export const projectpgCardData = [
   },  
   {
     projectTitle: 'Adventure Time',
-    imgSource: 'resources/coming_soon.jpg',
+    imgSource: 'resources/coming_soon.webp',
     flipText: 'Under development! It\'s one of the biggest things I ever worked on!',
     descriptionText: 'A RPG game made using UE4',
     demoLink: 'coming soon',            
@@ -103,7 +103,7 @@ export const projectpgCardData = [
   },
   {
     projectTitle: 'Open-source Contribution',
-    imgSource: 'resources/calchub_OSC.png',
+    imgSource: 'resources/calchub_OSC.webp',
     flipText: 'This was my first open source Contribution!',
     descriptionText: 'CalcHub - html, CSS, JS, Bootstrap',
     demoLink: '',
@@ -112,7 +112,7 @@ export const projectpgCardData = [
   },
   {
     projectTitle: 'ToDoList',
-    imgSource: 'resources/todo.jpg',
+    imgSource: 'resources/todo.webp',
     flipText: 'Simple android app (kotlin) to learn about room database.',
     descriptionText: 'Simple ToDoList app with room database.',
     demoLink: '',

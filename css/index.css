@@ -1,0 +1,6 @@
+body::before {
+    /*prevent navbar from hiding the 2 cards*/
+    display: block;
+    content: "";
+    height: 65px;
+}
