@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const container = document.querySelector('.dynamic-cards');
     let projectCardData;
 
-    if (window.location.pathname === '/project.html') {
+    if (window.location.pathname.includes('project')) {
       projectCardData = projectpgCardData;
     } else {
       // from 0 to 3 index
@@ -21,7 +21,7 @@ window.addEventListener('DOMContentLoaded', () => {
       }
 
       let slideInDir;
-      if(window.location.pathname === '/project.html')
+      if (window.location.pathname.includes('project'))
       {
         if(index % 3 === 0) slideInDir = 'from-left';
         else if(index % 3 === 1) slideInDir = 'fade-in';
@@ -47,7 +47,7 @@ window.addEventListener('DOMContentLoaded', () => {
           .replace(/\${codeLink}/g, project.codeLink)
           .replace(/\${tagsHtml}/g, tagsHtml);
                            
-          if (window.location.pathname === '/project.html') 
+          if (window.location.pathname.includes('project')) 
           {
           if (index % 3 === 0) {
             // Create a new row div for every third card
